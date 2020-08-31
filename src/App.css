@@ -1,0 +1,50 @@
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.App-nav {
+  margin: 20px;
+  padding: 10px;
+  border-bottom: 2px solid #508fca;
+}
+.App-nav ul {
+  padding: 0;
+  margin: 0;
+}
+.App-nav-item {
+  list-style: none;
+  display: inline-block;
+  margin-right: 32px;
+  font-size: 24px;
+  border-bottom: 4px solid transparent;
+  cursor: pointer;
+}
+.App-nav-item a:hover {
+  color: #999;
+}
+.App-nav-item.selected {
+  border-bottom-color: #ffaa3f;
+}
+.App-content {
+  margin: 0 20px;
+}
+
+.EmptyCart {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding-top: 50px;
+  font-size: 30px;
+}
+.App-nav-item-total {
+  list-style: none;
+  display: flex;
+  font-size: 16px;
+  margin-left: auto;
+  align-items: flex-end;
+  cursor: pointer;
+}
+
+.List-container {
+  display: flex;
+}
